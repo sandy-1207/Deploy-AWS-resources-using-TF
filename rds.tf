@@ -10,7 +10,7 @@ resource "aws_db_instance" "default" {
   allocated_storage = 10
   db_subnet_group_name = aws_db_subnet_group.default.id
   engine = "mysql"
-  engine_version = "8.0.20"
+  engine_version = "8.0.28"
   instance_class = "db.r6g.16xlarge"
   multi_az = true
   db_name = "db_1"
